@@ -42,6 +42,6 @@ Asking for approval from Metamask wallet
 
 ## Video Explanation
 
-(https://www.loom.com/share/9add30020a3e4bcd9124287fd21fa056?sid=85830719-0d2c-462b-8233-c7f860578cb0)
+https://www.loom.com/share/9add30020a3e4bcd9124287fd21fa056?sid=85830719-0d2c-462b-8233-c7f860578cb0
 
 
