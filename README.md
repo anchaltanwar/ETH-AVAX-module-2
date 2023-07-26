@@ -1,12 +1,32 @@
-# Starter Next/Hardhat Project
+# Assessment Smart Contract
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+[![License](https://img.shields.io/badge/license-UNLICENSED-red)](#license)
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+Assessment is a Solidity smart contract that implements a simple bank-like system for depositing and withdrawing funds. The contract allows an owner (deployer) to manage the contract's balance and perform deposit and withdrawal operations.
+
+## Smart Contract Details
+
+The smart contract includes the following functionalities:
+
+- `constructor(uint initBalance)`: Initializes the contract with an initial balance provided during deployment.
+
+- `getBalance()`: Allows anyone to query the current balance of the contract.
+
+- `deposit(uint256 _amount)`: Only the owner can call this function to deposit additional funds into the contract. It emits a `Deposit` event with the deposited amount.
+
+- `withdraw(uint256 _withdrawAmount)`: Only the owner can call this function to withdraw funds from the contract. The contract checks if the owner has sufficient balance before allowing the withdrawal. It emits a `Withdraw` event with the withdrawn amount.
+
+## Custom Error
+
+The contract includes a custom error `InsufficientBalance`, which is used when attempting to withdraw more funds than the contract's balance.
+
+## Usage
+
+To use this smart contract, you can deploy it to an Ethereum network using Solidity compiler and development environment like Remix, Hardhat, or Truffle. The contract can be deployed with an initial balance, and the owner can interact with the contract to deposit and withdraw funds.
+
+## License
+
+This project is licensed under the UNLICENSED License - see the [LICENSE](LICENSE) file for details.
+
