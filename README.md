@@ -1,6 +1,6 @@
 # Assessment Smart Contract
 
-[![License](https://img.shields.io/badge/license-UNLICENSED-red)](#license)
+
 
 ## Description
 
@@ -24,9 +24,19 @@ The contract includes a custom error `InsufficientBalance`, which is used when a
 
 ## Usage
 
-To use this smart contract, you can deploy it to an Ethereum network using Solidity compiler and development environment like Remix, Hardhat, or Truffle. The contract can be deployed with an initial balance, and the owner can interact with the contract to deposit and withdraw funds.
+To use this smart contract, you can deploy it to an Ethereum network using the Solidity compiler and development environment like Remix, Hardhat, or Truffle. The contract can be deployed with an initial balance, and the owner can interact with the contract to deposit and withdraw funds.
 
-## License
+## Outputs
 
-This project is licensed under the UNLICENSED License - see the [LICENSE](LICENSE) file for details.
+Home Page
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d8fd7f94-bdd2-48e4-9d58-9e44708d9ab6)
+
+After this deposit and withdrawal page
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d5e1e0e8-cd81-43b5-8cab-4bcf00caf65a)
+
+Asking for approval from Metamask wallet
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/1eb1e075-cfa5-43f3-bce5-b72ec37400b7)
+
+
+
 
