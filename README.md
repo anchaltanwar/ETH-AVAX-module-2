@@ -40,6 +40,8 @@ Asking for approval from Metamask wallet
 ![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/5f7da5cd-49eb-4514-bb41-f26215bf1b4b)
 
 
+## Video Explanation
 
+(https://www.loom.com/share/9add30020a3e4bcd9124287fd21fa056?sid=85830719-0d2c-462b-8233-c7f860578cb0)
 
 
