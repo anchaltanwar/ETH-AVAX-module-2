@@ -31,10 +31,13 @@ To use this smart contract, you can deploy it to an Ethereum network using the S
 Home Page
 ![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d8fd7f94-bdd2-48e4-9d58-9e44708d9ab6)
 
+
 After this deposit and withdrawal page
 ![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d5e1e0e8-cd81-43b5-8cab-4bcf00caf65a)
 
+
 Asking for approval from Metamask wallet
+`.`
 ![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/1eb1e075-cfa5-43f3-bce5-b72ec37400b7)
 
 
