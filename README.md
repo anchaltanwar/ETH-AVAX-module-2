@@ -37,8 +37,8 @@ After this deposit and withdrawal page
 
 
 Asking for approval from Metamask wallet
-`.`
-![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/1eb1e075-cfa5-43f3-bce5-b72ec37400b7)
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/5f7da5cd-49eb-4514-bb41-f26215bf1b4b)
+
 
 
 
