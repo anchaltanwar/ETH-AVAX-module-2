@@ -4,7 +4,7 @@
 
 ## Description
 
-Assessment is a Solidity smart contract that implements a simple bank-like system for depositing and withdrawing funds. The contract allows an owner (deployer) to manage the contract's balance and perform deposit and withdrawal operations.
+Assessment is a Solidity smart contract that implements a simple bank-like system for depositing and withdrawing funds. The contract allows an owner (deployer) to manage the contract's balance and perform deposit, withdrawal, and currency conversion operations
 
 ## Smart Contract Details
 
@@ -17,6 +17,8 @@ The smart contract includes the following functionalities:
 - `deposit(uint256 _amount)`: Only the owner can call this function to deposit additional funds into the contract. It emits a `Deposit` event with the deposited amount.
 
 - `withdraw(uint256 _withdrawAmount)`: Only the owner can call this function to withdraw funds from the contract. The contract checks if the owner has sufficient balance before allowing the withdrawal. It emits a `Withdraw` event with the withdrawn amount.
+  
+- `convertDollarsToRupees`: This is going to convert Dolar into Rupees
 
 ## Custom Error
 
@@ -29,19 +31,26 @@ To use this smart contract, you can deploy it to an Ethereum network using the S
 ## Outputs
 
 Home Page
-![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d8fd7f94-bdd2-48e4-9d58-9e44708d9ab6)
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/5dc40f30-8d7d-4617-9536-695edc140c0c)
+
 
 
 After this deposit and withdrawal page
-![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d5e1e0e8-cd81-43b5-8cab-4bcf00caf65a)
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/3e2ddaeb-bee2-43e1-9874-74c836e78779)
+
 
 
 Asking for approval from Metamask wallet
-![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/5f7da5cd-49eb-4514-bb41-f26215bf1b4b)
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/e5cc7001-48f9-49a4-ba9b-7045f2b80812)
+
+
+Dollar to Rupees conversion
+![image](https://github.com/anchaltanwar/ETH-AVAX-module-2/assets/86921001/d2e3b786-6228-40c8-a85f-75d43400796a)
+
 
 
 ## Video Explanation
 
-https://www.loom.com/share/9add30020a3e4bcd9124287fd21fa056?sid=85830719-0d2c-462b-8233-c7f860578cb0
+https://www.loom.com/share/cceec4644ee046d084c11769e8ca7c66?sid=e348af81-2889-4b34-9344-3a673ef60e4f
 
 
