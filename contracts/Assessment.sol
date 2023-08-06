@@ -6,17 +6,24 @@ pragma solidity ^0.8.9;
 contract Assessment {
     address payable public owner;
     uint256 public balance;
+    uint256 public exchangeRate; // Conversion rate from dollar to rupee
 
     event Deposit(uint256 amount);
     event Withdraw(uint256 amount);
 
-    constructor(uint initBalance) payable {
+    constructor(uint initBalance, uint256 initialExchangeRate) payable {
         owner = payable(msg.sender);
         balance = initBalance;
+        exchangeRate = initialExchangeRate;
     }
 
     function getBalance() public view returns(uint256){
         return balance;
+    }
+
+    function setExchangeRate(uint256 newRate) public {
+        require(msg.sender == owner, "You are not the owner of this account");
+        exchangeRate = newRate;
     }
 
     function deposit(uint256 _amount) public payable {
